@@ -1,0 +1,56 @@
+body{
+	font-size: 16px;
+}
+
+.get_start_btn {
+	background-image: url('../IMG/svg/get\ started\ button.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	height: 3 rem;
+	width: 140px !important;
+}
+
+
+.hel :hover {
+	color: rgb(65, 105, 225);
+}
+
+footer {
+	width: 100%;
+	margin-top: 25px;
+	background-image: linear-gradient(to top, #200e3e, #000000);
+}
+
+.footer-link{
+	color: white;
+}
+
+.footer-text{
+	color: white;
+	font-size: smaller;
+	text-align: center;
+}
+
+.elementor-button-text {
+	white-space: normal;
+	flex-grow: 0;
+	flex-grow: 1;
+    order: 10;
+    display: inline-block;
+	margin-right: 0.3em;
+}
+
+
+
+@media (max-width:768px) {
+	.royal_manaroch_navbar {
+		display: flex !important;
+		justify-content: center !important;
+		flex-direction: column !important;
+	}
+	
+}
